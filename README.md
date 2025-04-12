@@ -11,20 +11,20 @@ Rayhit: Colisão, o resultado do raycast.
 
 >**Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));**
 
-Ray ray: Cria um raio que vem da câmera do jogador (Camera.main) na qual a mesma é a tela do jogador.
-ScreenPointToRay:  Cria o raio a partir de um ponto da câmera/tela.
-Screen.width / 2 e Screen.height / 2 pegam as coordenadas do meio da tela, ou seja, de onde o raio irá sair.
-ScreenPointToRay: Transforma esse ponto da tela em um raio real na cena.
+Ray ray: Cria um raio que vem da câmera do jogador (Camera.main) na qual a mesma é a tela do jogador.<br>
+ScreenPointToRay:  Cria o raio a partir de um ponto da câmera/tela.<br>
+Screen.width / 2 e Screen.height / 2 pegam as coordenadas do meio da tela, ou seja, de onde o raio irá sair.<br>
+ScreenPointToRay: Transforma esse ponto da tela em um raio real na cena.<br>
 
 >**if (Physics.Raycast(ray, out rayhit, 1f))**
 
-Physics.Raycast: Lança o raio e verifica se colidiu.
-ray é o raio que criamos.
-out rayhit armazena as informações da colisão, caso aconteça.
+Physics.Raycast: Lança o raio e verifica se colidiu. <br>
+ray é o raio que criamos. <br>
+out rayhit armazena as informações da colisão, caso aconteça. <br>
 1f é a distância máxima do raio — ou seja, ele só "alcança" 1 unidade de distância à frente da câmera.
 
->**if (rayhit.collider.tag == "object")**
->**Debug.Log("Olhou");**
+>**if (rayhit.collider.tag == "object")**<br>
+>**Debug.Log("Olhou");**<br>
 >**Destroy(rayhit.collider.gameObject);**
 
 Se o objeto atingido/colidido tiver a tag "object", então ele irá mostrar a mensagem "Olhou" e também de acordo com seu raio máximo ele irá destruir esse objeto com a tag.
