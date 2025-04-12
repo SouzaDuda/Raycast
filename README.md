@@ -27,4 +27,9 @@ out rayhit armazena as informações da colisão, caso aconteça. <br>
 >**Debug.Log("Olhou");**<br>
 >**Destroy(rayhit.collider.gameObject);**
 
-Se o objeto atingido/colidido tiver a tag "object", então ele irá mostrar a mensagem "Olhou" e também de acordo com seu raio máximo ele irá destruir esse objeto com a tag.
+Se o objeto atingido/colidido tiver a tag "object", então ele irá mostrar a mensagem "Olhou" e também de acordo com seu raio máximo ele irá destruir esse objeto com a tag após a colisão (rayhit.collider.gameObject).
+
+## Atribuições da dupla
+
+Maria Eduarda:
+Sabrina Caetano:
