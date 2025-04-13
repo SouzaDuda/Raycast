@@ -29,6 +29,18 @@ Repositório destinado aos estudos de Raycast do Unity.<br>
 
 Se o objeto atingido/colidido tiver a tag "object", então ele irá mostrar a mensagem "Olhou" e também de acordo com seu raio máximo ele irá destruir esse objeto com a tag após a colisão (rayhit.collider.gameObject).
 
+## Mídia
+
+![IMGInicio](https://github.com/SouzaDuda/Raycast/blob/main/IMG1.png)
+![IMGInicioEmFrenteAoCubo](https://github.com/SouzaDuda/Raycast/blob/main/IMG2.png)
+![IMGOlhou](https://github.com/SouzaDuda/Raycast/blob/main/IMG3.png)
+
+Link do vídeo:<br>
+https://drive.google.com/drive/folders/1CmyD6Rd4we8DMlDr5yabypHkY-gleSlY?usp=drive_link<br>
+> OBS: O console.log não aparece no vídeo mas segue uma imagem das mensagens
+
+![IMGConsole](https://github.com/SouzaDuda/Raycast/blob/main/IMG4.png)
+
 ## Atribuições da dupla
 
 Maria Eduarda:
