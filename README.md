@@ -1,5 +1,5 @@
 # Raycast
-### Dupla: Maria Eduarda da Silva Souza e Sabrina Caetano
+### Dupla: Maria Eduarda da Silva Souza e Sabrina Caetano, 3º Jogos Digitais
 Repositório destinado aos estudos de Raycast do Unity.<br>
 
 ## Descrição do código
