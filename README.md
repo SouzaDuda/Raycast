@@ -42,7 +42,4 @@ https://drive.google.com/drive/folders/1CmyD6Rd4we8DMlDr5yabypHkY-gleSlY?usp=dri
 ![IMGConsole](https://github.com/SouzaDuda/Raycast/blob/main/IMG4.png)
 
 ## Atribuições da dupla
-
-Maria Eduarda:
-<br>
-Sabrina Caetano:
+Todo o projeto foi feito junto, ambos os integrantes auxiliaram no código e na correção do raycast, ou seja, participamos em todo o desenvolvimento.
