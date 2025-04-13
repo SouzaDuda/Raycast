@@ -35,7 +35,7 @@ Se o objeto atingido/colidido tiver a tag "object", então ele irá mostrar a me
 <br>
 **Raycast:** É a criação de um raio invisível, a partir de um ponto no espaço, numa direção específica, e ver se ele atinge algo. Ele pode se tornar visível com algumas alterações no código, configurando a sua cor e o intervalo para ele aparecer.<br>
 <br>
-**Destroy:** É uma função na qual o objeto, a partir do contato/colisão do raycast, que o gameobject identificado/colidido será destruído.
+**Destroy:** É uma função na qual o objeto, a partir do contato/colisão do raycast, que o gameobject identificado/colidido será destruído porém pode ser qualquer coisa.
 
 ## Mídia
 
