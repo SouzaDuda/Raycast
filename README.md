@@ -31,7 +31,11 @@ Se o objeto atingido/colidido tiver a tag "object", então ele irá mostrar a me
 
 ### Conceito
 
-**Prefab:** É um modelo na qual pegamos um objeto 3D, com scripts e alterações visuais e salvamos como um _Prefab_, ou seja, um prefab é um modelo com todos os scripts e alterações visuais feitas que viraram um molde que você pode simplesmente arrastar e terá ele feito. O molde do jogador (o cilindro) se tornou um prefab para salvar as configurações de tamanho, posição de câmera e scripts.
+**Prefab:** É um modelo na qual pegamos um objeto 3D, com scripts e alterações visuais e salvamos como um _Prefab_, ou seja, um prefab é um modelo com todos os scripts e alterações visuais feitas que viraram um molde que você pode simplesmente arrastar e terá ele feito. O molde do jogador (o cilindro) se tornou um prefab para salvar as configurações de tamanho, posição de câmera e scripts.<br>
+<br>
+**Raycast:** É a criação de um raio invisível, a partir de um ponto no espaço, numa direção específica, e ver se ele atinge algo. Ele pode se tornar visível com algumas alterações no código, configurando a sua cor e o intervalo para ele aparecer.<br>
+<br>
+**Destroy:** É uma função na qual o objeto, a partir do contato/colisão do raycast, que o gameobject identificado/colidido será destruído.
 
 ## Mídia
 
