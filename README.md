@@ -29,6 +29,10 @@ Repositório destinado aos estudos de Raycast do Unity.<br>
 
 Se o objeto atingido/colidido tiver a tag "object", então ele irá mostrar a mensagem "Olhou" e também de acordo com seu raio máximo ele irá destruir esse objeto com a tag após a colisão (rayhit.collider.gameObject).
 
+### Conceito
+
+**Prefab:** É um modelo na qual pegamos um objeto 3D, com scripts e alterações visuais e salvamos como um _Prefab_, ou seja, um prefab é um modelo com todos os scripts e alterações visuais feitas que viraram um molde que você pode simplesmente arrastar e terá ele feito. O molde do jogador (o cilindro) se tornou um prefab para salvar as configurações de tamanho, posição de câmera e scripts.
+
 ## Mídia
 
 ![IMGInicio](https://github.com/SouzaDuda/Raycast/blob/main/IMG1.png)
